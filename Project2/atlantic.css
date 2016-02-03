@@ -1,26 +1,41 @@
-body
-{
-    background-color: #FFFFFF;
+/* GLOBAL */
+body {
+    background-color: #FFFFFF; 
     color: #666666;
 }
-header
-{
+
+header {
     background-color: #000033;
     color: #FFFFFF;
 }
-nav
-{
+
+nav {
     background-color: #90C7E3;
 }
-h2
-{
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+
+/* TYPOGRAPHY */
+h1 {
+    margin: 0;
+}
+
+h2 {
     color: #3399CC;
 }
-dt, h3
-{
+
+dt, h3 {
     color: #000033;
 }
-.resort
-{
+
+.resort {
     color: #5C7FA3;
 }
