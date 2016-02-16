@@ -53,13 +53,10 @@ h2 {
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-h3 {
+dt, h3 {
     color: #000033;
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', serif;
-}
-
-dt {
-    color: #000033;
 }
 
 .resort {
