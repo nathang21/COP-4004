@@ -57,6 +57,8 @@ dt, h3 {
     color: #000033;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .resort {
