@@ -2,20 +2,28 @@
 body {
     background-color: #FFFFFF; 
     color: #666666;
+    font-family: Arial, 'Helvetica', Helvetica, sans-serif;
 }
 
 header {
     background-color: #000033;
     color: #FFFFFF;
+    background-image: url("sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 400%;
+    text-indent: 1em;
 }
 
 nav {
     background-color: #90C7E3;
+    font-weight: bold;
 }
 
 nav a {
     display: inline-block;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 nav a:last-child {
@@ -26,10 +34,12 @@ nav a:last-child {
 /* TYPOGRAPHY */
 h1 {
     margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 h2 {
     color: #3399CC;
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 dt, h3 {
