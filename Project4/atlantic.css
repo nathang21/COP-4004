@@ -85,20 +85,7 @@ dt, h3 {
     font-size: 90%;
 }
 
-#wrapper {
-    margin: auto;
-    width:80%;
-    background-color: #FFFFFF;
-    min-width: 960px;
-    max-width: 2048px
-    /*
-    border-color: #333333;
-    border-width: 3px;
-    */
-    box-shadow: 3px 3px #333333;
-}
-
-#main {
+main {
     padding-top: 1px;
     padding-left: 20px;
     padding-right: 20px;
@@ -124,4 +111,17 @@ dt, h3 {
     background-image: url('images/hiking-main.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#wrapper {
+    margin: auto;
+    width:80%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    /*
+    border-color: #333333;
+    border-width: 3px;
+    */
+    box-shadow: 3px 3px #333333;
 }
