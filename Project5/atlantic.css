@@ -1,0 +1,127 @@
+/* GLOBAL */
+body {
+    background-color: #90C7E3; 
+    color: #666666;
+    font-family: Arial, 'Helvetica', Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,#ffffff,#90C7E3);
+    background-repeat: no-repeat;
+    /*
+    background: #ffffff; /* Old browsers
+    background: -moz-linear-gradient(top,  #ffffff 0%, #90c7e3 100%, #7db9e8 100%); 
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#90c7e3 100%,#7db9e8 100%); 
+    background: linear-gradient(to bottom,  #ffffff 0%,#90c7e3 100%,#7db9e8 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 );
+    */
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url("images/sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+ul {
+    list-style-image: url('images/marker.gif');
+}
+
+footer {
+    font-size: 75%;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* TYPOGRAPHY */
+h1 {
+    margin: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+dt, h3 {
+    color: #000033;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+main {
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#main-image {
+    height: 300px;
+    background-image: url('images/coast-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#accommodations-image {
+    height: 300px;
+    background-image: url('images/bungalow-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#activities-image {
+    height: 300px;
+    background-image: url('images/trail-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    margin: auto;
+    width:80%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    /*
+    border-color: #333333;
+    border-width: 3px;
+    */
+    box-shadow: 3px 3px #333333;
+}
