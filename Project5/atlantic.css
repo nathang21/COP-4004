@@ -1,6 +1,6 @@
 /* GLOBAL */
 body {
-    background-color: #90C7E3; 
+    background-color: #4F6D93; 
     color: #666666;
     font-family: Arial, 'Helvetica', Helvetica, sans-serif;
     background-image: linear-gradient(to bottom,#ffffff,#90C7E3);
@@ -26,10 +26,10 @@ header {
 }
 
 nav {
-    background-color: #FFFFFF;
     font-weight: bold;
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
+    float:left;
+    width:160px;
 }
 
 nav a {
@@ -42,8 +42,11 @@ nav a:last-child {
     margin-right: 0;
 }
 
-ul {
-    list-style-image: url('images/marker.gif');
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type:none
 }
 
 footer {
@@ -52,6 +55,7 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 20px;
+    background-color: #FFFFFF;
 }
 
 
@@ -76,6 +80,19 @@ dt, h3 {
     margin-bottom: 0.5em;
 }
 
+a:link {
+    color: #000033;
+}
+
+a:visited {
+    color: #344873;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+
 .resort {
     color: #5C7FA3;
     font-weight: bold;
@@ -87,9 +104,15 @@ dt, h3 {
 
 main {
     padding-top: 1px;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-right: 20px;
     padding-bottom: 20px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+}
+
+main ul {
+    list-style-image: url('images/marker.gif');
 }
 
 #main-image {
@@ -97,6 +120,7 @@ main {
     background-image: url('images/coast-main.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #accommodations-image {
@@ -104,6 +128,7 @@ main {
     background-image: url('images/bungalow-main.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #activities-image {
@@ -111,12 +136,13 @@ main {
     background-image: url('images/trail-main.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #wrapper {
     margin: auto;
     width:80%;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
     /*
