@@ -98,6 +98,37 @@ a:hover {
     font-weight: bold;
 }
 
+table {
+    border: 2px solid black;
+    margin: auto;
+}
+
+th {
+    background-color: #0000FF;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+tr td:nth-child(1) { /* I don't think they are 0 based */
+   text-align: center;
+}
+
+tr td:nth-child(2) { /* I don't think they are 0 based */
+   text-align: left;
+}
+
+tr td:nth-child(3) { /* I don't think they are 0 based */
+   text-align: center;
+}
+
+tr td:nth-child(4) { /* I don't think they are 0 based */
+   text-align: content: '';
+}
+
 #contact {
     font-size: 90%;
 }
