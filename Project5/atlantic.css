@@ -183,6 +183,11 @@ main ul {
     box-shadow: 3px 3px #333333;
 }
 
+#number a {
+   font-size: 0px;
+}
+
+
 /* Tablet Layout */
 @media only screen and (max-width: 64em)
 {
@@ -305,4 +310,14 @@ main ul {
 	table {
 	    display: none;
 	}
+	
+	#numCell
+	{
+		font-size: 0px;
+	}
+	#number a
+	{
+		font-size: inherit;
+	}
+}
 }
