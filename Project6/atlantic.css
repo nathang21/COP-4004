@@ -98,9 +98,8 @@ a:hover {
     font-weight: bold;
 }
 
-table {
+table, th, td {
     border: 2px solid black;
-    margin: auto;
 }
 
 th {
@@ -109,7 +108,7 @@ th {
     font-weight: bold;
 }
 
-tbody tr:nth-child(odd) {
+body tr:nth-child(odd) {
    background-color: #ccc;
 }
 
