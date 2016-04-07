@@ -127,7 +127,7 @@ tr td:nth-child(3) { /* I don't think they are 0 based */
 }
 
 tr td:nth-child(4) { /* I don't think they are 0 based */
-   text-align: content: '';
+   text-align: center;
 }
 
 #contact {
@@ -192,133 +192,128 @@ main ul {
 /* Tablet Layout */
 @media only screen and (max-width: 64em)
 {
-	body {
-        margin: 0;
-        background-color: #FFFFFF;
-    }
-    
-    #wrapper
-	{
-		min-width: 0px;
-		width: auto;
-		box-shadow: none;
-	}
-	
-	main {
-	    margin-left: 0;
-	}
-	
-	nav {
-	    float: none;
-	    width: auto;
-	    text-align: center
-	    padding: .5em;
-	}
-	
-	nav ul li {
-	    display: inline;
-	    padding-top: 0.25em;
-	    padding-bottom: 0.25em;
-	    padding-left: 0.75em;
-	    padding-right: 0.75em;
-	}
-	
-	#main-image
-	{
-		height: 200px;
-		background-image: url(images/coast-main.jpg);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left: 0px;
-	}
-	
-	#accommodations-image
-	{
-		height: 200px;
-		background-image: url(images/bungalow-main.jpg);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left: 0px;
-	}
-	
-	#activities-image
-	{
-		height: 200px;
-		background-image: url(images/trail-main.jpg);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left: 0px;
-	}
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+#wrapper {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+}
+
+main {
+    margin-left: 0;
+}
+
+nav {
+    float: none;
+    width: auto;
+    text-align: center;
+    padding: .5em;
+}
+
+nav ul li {
+    display: inline;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+#main-image {
+	height: 200px;
+	background-image: url(images/coast-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#accommodations-image {
+	height: 200px;
+	background-image: url(images/bungalow-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#activities-image {
+	height: 200px;
+	background-image: url(images/trail-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
 }
 
 /* Mobile Phone Layout */
+@media only screen and (max-width: 37.5em)
 {
-	header
-	{
-		padding:1em;
-	}
-	
-	main {
-	    padding-top: 0.1em;
-	    padding-bottom: 0.1em;
-	    padding-left: 1em;
-	    padding-right: 1em;
-	    font-size: 90%;
-	}
-	
-	h1 {
-	    font-size: 1.5em;
-	}
-	
-	nav li {
-	    display: block;
-	    margin: 0;
-	    border-bottom: 2px solid;
-	    border-color: #330000;
-	}
-	
-	nav ul li a {
-	    display: block;
-	    margin: 0;
-	    padding: 0;
-	}
-	
-	#main-image {
-	    height: 0px;
-	    background-image: none;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left: 0px;
-	}
-	
-	#accommodations-image
-	{
-		height: 0px;
-		background-image: none;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left:0px;
-	}
-	#activities-image
-	{
-		height: 0px;
-		background-image: none;
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		margin-left:0px;
-	}
-	
-	table {
-	    display: none;
-	}
-	
-	#numCell
-	{
-		font-size: 0px;
-	}
-	#number a
-	{
-		font-size: inherit;
-	}
+header {
+	padding: 1em;
 }
+
+main {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 90%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+nav li {
+    display: block;
+    margin: 0;
+    border-bottom: 2px solid;
+    border-color: #330000;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#main-image {
+    height: 0px;
+    background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#accommodations-image {
+	height: 0px;
+	background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:0px;
+}
+
+#activities-image {
+	height: 0px;
+	background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:0px;
+}
+
+table {
+    display: none;
+}
+
+#numCell {
+	font-size: 0px;
+}
+
+#number a {
+	font-size: inherit;
+}
+
 }
