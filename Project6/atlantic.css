@@ -100,12 +100,14 @@ a:hover {
 
 table, th, td {
     border: 2px solid black;
+    padding: 5px;
 }
 
 th {
     background-color: #0000FF;
     text-align: center;
     font-weight: bold;
+    color: #FFFFFF;
 }
 
 body tr:nth-child(odd) {
