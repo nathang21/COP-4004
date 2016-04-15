@@ -1,0 +1,319 @@
+/* GLOBAL */
+body {
+    background-color: #4F6D93; 
+    color: #666666;
+    font-family: Arial, 'Helvetica', Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,#ffffff,#90C7E3);
+    background-repeat: no-repeat;
+    /*
+    background: #ffffff; /* Old browsers
+    background: -moz-linear-gradient(top,  #ffffff 0%, #90c7e3 100%, #7db9e8 100%); 
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#90c7e3 100%,#7db9e8 100%); 
+    background: linear-gradient(to bottom,  #ffffff 0%,#90c7e3 100%,#7db9e8 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=0 );
+    */
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url("images/sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav {
+    font-weight: bold;
+    padding: 20px;
+    float:left;
+    width:160px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type:none
+}
+
+footer {
+    font-size: 75%;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+
+/* TYPOGRAPHY */
+h1 {
+    margin: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+dt, h3 {
+    color: #000033;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+a:link {
+    color: #000033;
+}
+
+a:visited {
+    color: #344873;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: #0000FF;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+body tr:nth-child(odd) {
+   background-color: #ccc;
+}
+
+tr td:nth-child(1) { /* I don't think they are 0 based */
+   text-align: center;
+}
+
+tr td:nth-child(2) { /* I don't think they are 0 based */
+   text-align: left;
+}
+
+tr td:nth-child(3) { /* I don't think they are 0 based */
+   text-align: center;
+}
+
+tr td:nth-child(4) { /* I don't think they are 0 based */
+   text-align: center;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+main {
+    padding-top: 1px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+}
+
+main ul {
+    list-style-image: url('images/marker.gif');
+}
+
+#main-image {
+    height: 300px;
+    background-image: url('images/coast-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#accommodations-image {
+    height: 300px;
+    background-image: url('images/bungalow-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#activities-image {
+    height: 300px;
+    background-image: url('images/trail-main.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+#wrapper {
+    margin: auto;
+    width:80%;
+    background-color: #90C7E3;
+    min-width: 960px;
+    max-width: 2048px;
+    /*
+    border-color: #333333;
+    border-width: 3px;
+    */
+    box-shadow: 3px 3px #333333;
+}
+
+#number a {
+   font-size: 0px;
+}
+
+
+/* Tablet Layout */
+@media only screen and (max-width: 64em)
+{
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+#wrapper {
+	min-width: 0px;
+	width: auto;
+	box-shadow: none;
+}
+
+main {
+    margin-left: 0;
+}
+
+nav {
+    float: none;
+    width: auto;
+    text-align: center;
+    padding: .5em;
+}
+
+nav ul li {
+    display: inline;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+#main-image {
+	height: 200px;
+	background-image: url(images/coast-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#accommodations-image {
+	height: 200px;
+	background-image: url(images/bungalow-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#activities-image {
+	height: 200px;
+	background-image: url(images/trail-main.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+}
+
+/* Mobile Phone Layout */
+@media only screen and (max-width: 37.5em)
+{
+header {
+	padding: 1em;
+}
+
+main {
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 90%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+nav li {
+    display: block;
+    margin: 0;
+    border-bottom: 2px solid;
+    border-color: #330000;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#main-image {
+    height: 0px;
+    background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#accommodations-image {
+	height: 0px;
+	background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:0px;
+}
+
+#activities-image {
+	height: 0px;
+	background-image: none;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:0px;
+}
+
+table {
+    display: none;
+}
+
+#numCell {
+	font-size: 0px;
+}
+
+#number a {
+	font-size: inherit;
+}
+
+}
