@@ -135,6 +135,43 @@ tr td:nth-child(4) { /* I don't think they are 0 based */
 	background-color: aqua;
 }
 
+table,tr,td
+{
+	border-style: solid;
+	border-collapse: collapse;
+	border-width:1px;
+	margin:auto;
+}
+table 
+{
+	width: 70%;
+	min-width:70%;
+}
+.tableHeading
+{
+	background-color:blue;
+	text-align:center;
+	height: 50px;
+}
+.center
+{
+	text-align:center;
+}
+.tableHeading td p
+{
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+tr
+{
+	height:30px;
+}
+.odd
+{
+	background-color: aqua;
+}
+
 #contact {
     font-size: 90%;
 }
