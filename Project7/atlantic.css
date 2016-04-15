@@ -3,8 +3,9 @@ body {
     background-color: #4F6D93; 
     color: #666666;
     font-family: Arial, 'Helvetica', Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom,#ffffff,#90C7E3);
+    background: linear-gradient(to bottom,#ffffff,#90C7E3);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     /*
     background: #ffffff; /* Old browsers
     background: -moz-linear-gradient(top,  #ffffff 0%, #90c7e3 100%, #7db9e8 100%); 
@@ -130,6 +131,10 @@ tr td:nth-child(4) { /* I don't think they are 0 based */
    text-align: center;
 }
 
+#odd,#odd1,#odd2 {		
+	background-color: aqua;
+}
+
 #contact {
     font-size: 90%;
 }
@@ -186,6 +191,35 @@ main ul {
 
 #number a {
    font-size: 0px;
+}
+
+#footerRes {
+	background-color: #90c7e3;
+}
+
+#submit {
+	width: auto; 
+    padding: 9px 15px; 
+    background: #617798; 
+    border: 0; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+}
+
+form {
+	box-shadow:2px 2px 2px black;
+	border:1px solid #3399CC;
+	padding:2px;
+}
+
+label { 
+	display: inline-block; 
+	width: 140px; 
+	text-align: right;
+}
+
+#submit:hover {
+	cursor:pointer;
 }
 
 
