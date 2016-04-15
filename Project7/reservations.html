@@ -25,21 +25,39 @@
 			<div role = "main">
 				<!-- main article content goes here -->
 				<main>
-				<h2>Enjoy Nature in Luxury</h2>
-				<p><span class="resort">Atlantic Trails Resort</span> offers a special lodging experience on the North Coast of Maine. Relax in serenity with panoramic views of the Atlantic Ocean.</p>
-				<ul>
-				    <li>Private bunglows with desks overlooking the ocean</li>
-				    <li>Activities lodge with fireplace and gift shop</li>
-				    <li>Nightly fine dining at the Overlook Cafe</li>
-				    <li>Heated outdoor pool and whirlpool</li>
-				    <li>Guided hiking tours of the pine forests</li>
-				</ul>
+				<h2>Reservations at Atlantic Trails</h2>
+				<span class="ContactUs">Contact Us Today</span>
+					<p>Required fields are marked with an asterisk * </p>
+					<div id = "form">
+					<form method = "post" action = "http://eustis.eecs.ucf.edu/~markl/atlanticformreport.php">
+						<fieldset>
+							<br>
+							<label>*First Name: &nbsp; </label>
+							<input type = "text" id = "myFName" name = "myFName" required autofocus/> <br><br>
+							<label>*Last Name: &nbsp; </label>
+							<input type = "text" id = "myLName" name = "myLName" required/><br><br>
+							<label>*E-mail:  &nbsp; </label>
+							<input type = "email" id = "myEmail" name ="myEmail" required/><br><br>
+							<label>Phone: &nbsp; </label>
+							<input type = "tel" id = "myPhone" name = "myPhone" /><br><br>
+							<label>Arrival Date: &nbsp; </label>
+							<input type = "date" id = "myArrival" name = "myArrival"/><br><br>
+							<label>Nights: &nbsp; </label>
+							<input type = "number" id ="myNights" name = "myNights"/><br><br>
+							<label>*Comments: &nbsp; </label>
+							<textarea id = "myComments" name = "myComments" rows = "2" cols = "32" required></textarea><br><br>
+							<input type ="submit" value = "submit" id = "submit" /><br><br>
+						</fieldset>
+					</form>
+					</div>
+					<br><br><br>
 			<!-- supplemental content goes here -->
 		    <span class="resort">Atlantic Trails Resort</span><br>
 			    <div id="contact">
 				    1210 Atlantic Trails Way<br>
 				   	Cliffside, Maine 04226
-				    <p>888-555-5555</p>
+				    <p id = "numCell">888-555-5555</p>
+							<div id = "number"><a href = "tel:888-555-5555">888-555-5555</a></div>
 				</div>
 			</main>
 			</div>
