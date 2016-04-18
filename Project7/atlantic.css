@@ -131,7 +131,7 @@ tr td:nth-child(4) { /* I don't think they are 0 based */
    text-align: center;
 }
 
-#odd,#odd1,#odd2 {		
+#odd,#odd1 {		
 	background-color: aqua;
 }
 
@@ -259,6 +259,22 @@ label {
 	cursor:pointer;
 }
 
+#odd2 {
+    background-color: aqua;
+    border: 2px solid yellow;
+}
+
+#lastTable {
+    border: 2px solid yellow;
+}
+
+.tableHeading #lastTable {
+    border: 2px solid yellow;
+}
+
+.ContactUs {
+   font-weight: bold;
+}
 
 /* Tablet Layout */
 @media only screen and (max-width: 64em)
@@ -286,7 +302,7 @@ nav {
 }
 
 nav ul li {
-    display: inline;
+    /*display: inline;*/
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 0.75em;
@@ -316,7 +332,6 @@ nav ul li {
 	background-repeat: no-repeat;
 	margin-left: 0px;
 }
-
 }
 
 /* Mobile Phone Layout */
@@ -347,8 +362,8 @@ nav li {
 
 nav ul li a {
     display: block;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 #main-image {
@@ -364,7 +379,7 @@ nav ul li a {
 	background-image: none;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-left:0px;
+	margin-left: 0px;
 }
 
 #activities-image {
@@ -372,7 +387,7 @@ nav ul li a {
 	background-image: none;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	margin-left:0px;
+	margin-left: 0px;
 }
 
 table {
@@ -385,6 +400,11 @@ table {
 
 #number a {
 	font-size: inherit;
+}
+
+input, label {
+    display:block;
+    text-align: left;
 }
 
 }
