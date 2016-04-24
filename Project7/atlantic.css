@@ -149,14 +149,17 @@ table
 }
 .tableHeading
 {
-	background-color:blue;
-	text-align:center;
+	background-color: #0000ff;
+	text-align: center;
 	height: 50px;
+	color: #000000;
 }
+
 .center
 {
 	text-align:center;
 }
+
 .tableHeading td p
 {
 	color: white;
@@ -264,12 +267,9 @@ label {
     border: 2px solid yellow;
 }
 
-#lastTable {
-    border: 2px solid yellow;
-}
 
-.tableHeading #lastTable {
-    border: 2px solid yellow;
+#lastTable, tr, td {
+    border: 2px solid blue;
 }
 
 .ContactUs {
